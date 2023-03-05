@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/* TEXT CUSTOM */
+.heading-style {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+.sub-heading-style {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+/* Padding top */
+.p-top {
+    padding-top: 100px;
+}
+
+/* Color */
+.bg-blue {
+    background-color: #0D28A6;
+}
+.bg-light-purple {
+    background-color: #F1F3FF;
+}
+
+/* Button */
+.btn-green {
+    padding: 8px 12px;
+    background: #5CB85F;
+    border-radius: 2px;
+}
+
+/* NAVBAR */
+.nav-link {
+    font-size: 14px;
+    margin-left: 32px;
+}
+
+/* HERO */
+#hero-section .row {
+    height: 500px;
+}
+
+.car {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
