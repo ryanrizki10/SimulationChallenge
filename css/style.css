@@ -23,6 +23,12 @@ body {
     background-color: #F1F3FF;
 }
 
+/* Button */
+.btn-green {
+    padding: 8px 12px;
+    background: #5CB85F;
+    border-radius: 2px;
+}
 
 /* NAVBAR */
 .nav-link {
