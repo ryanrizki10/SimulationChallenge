@@ -4,6 +4,32 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+/* Color */
+.bg-light-purple {
+    background-color: #F1F3FF;
+}
+
+
+/* ========START OF NAVBAR======== */
+
+/* NAVBAR */
+.nav-link {
+    font-size: 14px;
+    margin-left: 32px;
+}
+
+
+/* ======END OF NAVBAR====== */
+
+
+
+/* ========HERO SECTION================= */
+
+/* HERO */
+#hero-section .row {
+    height: 500px;
+}
+
 /* TEXT CUSTOM */
 .heading-style {
     font-style: normal;
@@ -13,15 +39,6 @@ body {
 }
 
 
-/* Padding top */
-.p-top {
-    padding-top: 100px;
-}
-
-/* Color */
-.bg-light-purple {
-    background-color: #F1F3FF;
-}
 
 /* Button */
 .btn-green {
@@ -30,20 +47,27 @@ body {
     border-radius: 2px;
 }
 
-/* NAVBAR */
-.nav-link {
-    font-size: 14px;
-    margin-left: 32px;
-}
 
-/* HERO */
-#hero-section .row {
-    height: 500px;
+
+
+
+.car-style {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+    background-color: #0D28A6;
+    width: 50%;
+    border-top-left-radius: 100px;
 }
 
 .car {
     position: absolute;
+    width: 50%;
+    height: 500px;
     bottom: 0;
     right: 0;
-    width: 50%;
+    /* background-position-y: 100px; */
+    /* border-top-right-radius: 100px; */
+    border-bottom-width: 10px;
 }
